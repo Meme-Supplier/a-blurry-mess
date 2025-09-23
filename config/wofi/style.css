@@ -1,0 +1,38 @@
+#window,
+#window #outer-box,
+#window #outer-box #input,
+#window #outer-box #scroll {
+background-color: rgba(0, 0, 0, 1);
+border-radius: 0rem;
+}
+
+#window #outer-box #input {
+color: #ffffff;
+border: none;
+padding: 0.8rem 1rem;
+font-size: 1.5rem;
+}
+
+#window #outer-box #input:focus,
+#window #outer-box #input:focus-visible,
+#window #outer-box #input:active {
+background-color: rgba(0, 0, 0, 0.0);
+}
+
+#window #outer-box #scroll #inner-box #entry {
+color: #ffffff;
+background-color: rgba(0, 0, 0, 0);
+padding: 1rem 1rem;
+font-size: 1.25rem;
+}
+
+#window #outer-box #scroll #inner-box #entry:selected {
+color: #ffffff;
+background-color: rgba(0, 0, 0, 0);
+}
+
+#window #outer-box #scroll #inner-box #entry #img {
+width: 0rem;
+margin-right: 0.5rem;
+background-color: rgba(0, 0, 0, 0);
+}
