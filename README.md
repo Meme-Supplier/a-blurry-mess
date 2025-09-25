@@ -10,3 +10,5 @@ My Hyprland dot/config files
 - yay -S youtube-music-bin bibata-cursor-theme breeze breeze-gtk lxappearance-gtk3
 
 ### Some other packages may be needed
+
+## More configurations can be added upon request
