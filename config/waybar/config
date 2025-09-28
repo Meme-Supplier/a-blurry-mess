@@ -26,8 +26,8 @@
         "format": "\udb81\udd7e   {volume}%",
         "max-volume": 100,
         "scroll-step": 5,
-        "on-click": "pavucontrol",
-        "on-click-right": "blueman-manager",
+        "on-click": "kcmshell6 kcm_pulseaudio",
+        "on-click-right": "kcmshell6 bluetooth",
     },
 
     "network": {
@@ -39,7 +39,7 @@
         "tooltip-format-wifi": "{essid} ({signalStrength}%)",
         "tooltip-format-ethernet": "Ethernet connected ({ifname})",
         "tooltip-format-disconnected": "Disconnected",
-        "on-click": "nmgui",
+        "on-click": "kcmshell6 kcm_networkmanagement",
     },
 
     "tray": {
