@@ -1,0 +1,50 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 40,
+    "spacing": 5,
+    "output": "DP-5",
+
+    "modules-left": ["custom/youtube", "tray"],
+    "modules-center": ["clock"],
+    "modules-right": ["network", "wireplumber"],
+
+    "custom/youtube": {
+        "exec": "~/.config/waybar/scripts/youtube-music.sh",
+        "interval": 1,
+        "on-click": "youtube-music",
+        "tooltip-format": "Listening on Youtube Music",
+    },
+
+    "clock": {
+      "format": "{:%I:%M:%S %p}",
+      "interval":1,
+      "tooltip-format": "Current time | {:%I:%M:%S %p}",
+    },
+
+    "wireplumber": {
+        "format": "\udb81\udd7e   {volume}%",
+        "max-volume": 100,
+        "scroll-step": 5,
+        "on-click": "kcmshell6 kcm_pulseaudio",
+        "on-click-right": "kcmshell6 bluetooth",
+    },
+
+    "network": {
+        "format": "",
+        "format-ethernet": "\udb83\udc9d",
+        "format-wifi": "{icon}",
+        "format-disconnected": "\udb83\udc9c",
+        "format-icons": ["\udb82\udd2f", "\udb82\udd1f", "\udb82\udd22", "\udb82\udd25", "\udb82\udd28"],
+        "tooltip-format-wifi": "{essid} ({signalStrength}%)",
+        "tooltip-format-ethernet": "Ethernet connected ({ifname})",
+        "tooltip-format-disconnected": "Disconnected",
+        "on-click": "kcmshell6 kcm_networkmanagement",
+    },
+
+    "tray": {
+        "icon-size":20,
+        "spacing": 14
+    },
+
+}
