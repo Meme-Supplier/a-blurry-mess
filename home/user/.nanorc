@@ -1,0 +1,4 @@
+set linenumbers
+set autoindent        # auto-indent lines
+set tabsize 4         # tab width
+include /usr/share/nano/*.nanorc
