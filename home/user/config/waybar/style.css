@@ -15,7 +15,7 @@ background-color: @background;
 }
 
 window#waybar {
-  background: rgba(0, 0, 0, .55); /* last number = opacity */
+  background: rgba(0, 0, 0, .5); /* last number = opacity */
 }
 
 #workspaces button {
