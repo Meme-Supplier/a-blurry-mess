@@ -1,11 +1,2 @@
-[editor]
-cmd = "nano"
-
 [mgr]
 show_hidden = true
-
-[associations]
-# Open mp3 and other audio files in cmus
-"*.mp3" = "cmus \"%f\""
-"*.flac" = "cmus \"%f\""
-"*.wav" = "cmus \"%f\""
