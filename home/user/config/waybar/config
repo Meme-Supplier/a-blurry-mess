@@ -4,30 +4,38 @@
     "height": 40,
     "spacing": 5,
     "output": "DP-5",
+    "reload_style_on_change":true,
 
-    "modules-left": ["custom/youtube", "tray"],
+    "modules-left": ["youtube", "tray"],
     "modules-center": ["clock"],
-    "modules-right": ["network", "wireplumber"],
+    "modules-right": ["bluetooth", "network", "wireplumber"],
 
-    "custom/youtube": {
+    "youtube": {
         "exec": "~/.config/waybar/scripts/youtube-music.sh",
         "interval": 1,
         "on-click": "youtube-music",
-        "tooltip-format": "Listening on Youtube Music",
     },
 
     "clock": {
       "format": "{:%I:%M:%S %p}",
       "interval":1,
-      "tooltip-format": "Current time | {:%I:%M:%S %p}",
+    },
+
+    "bluetooth": {
+        "format-on": "",
+        "format-off": "",
+        "format-disabled": "󰂲",
+        "format-connected": "󰂯",
+        "on-click": "kcmshell6 bluetooth",
     },
 
     "wireplumber": {
         "format": "\udb81\udd7e   {volume}%",
         "max-volume": 100,
         "scroll-step": 5,
-        "on-click": "kitty wiremix",
-        "on-click-right": "kitty bluetui",
+        /*"on-click": "kitty wiremix",*/
+        /*"on-click-right": "kitty bluetui",*/
+        "on-click": "kcmshell6 pulseaudio",
     },
 
     "network": {
@@ -36,10 +44,8 @@
         "format-wifi": "{icon}",
         "format-disconnected": "\udb83\udc9c",
         "format-icons": ["\udb82\udd2f", "\udb82\udd1f", "\udb82\udd22", "\udb82\udd25", "\udb82\udd28"],
-        "tooltip-format-wifi": "{essid} ({signalStrength}%)",
-        "tooltip-format-ethernet": "Ethernet connected ({ifname})",
-        "tooltip-format-disconnected": "Disconnected",
-        "on-click": "kitty impala",
+        /*"on-click": "kitty impala",*/
+        "on-click": "kcmshell6 kcm_networkmanagement",
     },
 
     "tray": {
