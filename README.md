@@ -14,7 +14,7 @@ My Hyprland dot/config files
 - **Icons**: Material Icon theme
 ## Zen Browser
 - `Zen Internet` + `Dark Reader` extension
-# Apps (Plasma dependent)
+# Apps
 - **Terminal**: kitty
 - **File Manager**: Dolphin
 - **Application launcher**: wofi
