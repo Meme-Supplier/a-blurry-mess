@@ -14,6 +14,7 @@ My Hyprland dot/config files
 - **Icons**: Material Icon theme
 ## Zen Browser
 - `Zen Internet` + `Dark Reader` extension
+- Accent color `#2251C0` set through about:config -> `zen.theme.accent-color`
 # Apps
 - **Terminal**: kitty
 - **File Manager**: Dolphin
