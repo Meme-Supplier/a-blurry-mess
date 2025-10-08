@@ -14,11 +14,11 @@ My Hyprland dot/config files
 - **Icons**: Material Icon theme
 ## Zen Browser
 - `Zen Internet` + `Dark Reader` extension
-# Apps
+# Apps (Plasma dependent)
 - **Terminal**: kitty
-- **File Manager**: Yazi
+- **File Manager**: Dolphin
 - **Application launcher**: wofi
-- **System Monitor:** btop
+- **System Monitor:** plasma-systemmonitor
 - **Screen Locker**: hyprlock
 - **Screenshot manager**: hyprshot
 - **Wallpaper manager**: hyprpaper
