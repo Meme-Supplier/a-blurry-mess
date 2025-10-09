@@ -6,11 +6,11 @@
     "output": "DP-5",
     "reload_style_on_change":true,
 
-    "modules-left": ["youtube", "tray"],
+    "modules-left": ["custom/youtube", "tray"],
     "modules-center": ["clock"],
     "modules-right": ["bluetooth", "network", "wireplumber"],
 
-    "youtube": {
+    "custom/youtube": {
         "exec": "~/.config/waybar/scripts/youtube-music.sh",
         "interval": 1,
         "on-click": "youtube-music",
