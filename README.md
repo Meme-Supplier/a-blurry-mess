@@ -8,7 +8,7 @@ My Hyprland dot/config files
 # Themeing
 ## Universal
 - **QT/GTK**: Breeze
-- **Icons**: Papirus Dark
+- **Icons**: Papirus
 ## VSCodium
 - **Theme**: Github Dark Default
 - **Icons**: Material Icon theme
