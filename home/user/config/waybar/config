@@ -17,7 +17,7 @@
     },
 
     "clock": {
-      "format": "{:%I:%M:%S %p}",
+      "format": "{:%m.%d.%Y | %I:%M}",
       "interval":1,
     },
 
